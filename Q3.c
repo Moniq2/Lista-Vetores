@@ -4,7 +4,6 @@ receberão os respectivos elementos divididos por 2; os elementos de índice
 ímpar receberão os respectivos elementos multiplicados por 3. Imprima os dois
 vetores. */
 
-
 #include <stdio.h>
 
 

@@ -3,6 +3,7 @@ Utilizando vetores, crie um programa que
 organize uma quantidade qualquer de números inteiros fornecidos pelo usuário da
 seguinte forma: primeiro os números pares em ordem crescente e depois os
 números ímpares em ordem decrescente.*/
+
 #include <stdio.h>
 
 int main() {
@@ -18,7 +19,7 @@ int main() {
     {
         scanf("%d", &vetor[i]);
     }
-    
+
     //Armazena os números pares armazenados em um vetor e ìmpares no outro
     for (int i = 0; i < quantNumeros; i++)
     {
