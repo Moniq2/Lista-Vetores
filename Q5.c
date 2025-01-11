@@ -10,17 +10,17 @@ multiplicação dos dois vetores lidos.
 int main() {
     int vetor1[20], vetor2[20], vetor3[20], vetor4[20], vetor5[20];
     printf("Digite 20 numeros:");
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 20; i++)
     {
         scanf("%d", &vetor1[i]);
     }
     printf("Digite mais 20 numeros:");
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 20; i++)
     {
         scanf("%d", &vetor2[i]);
     }
 
-    for(int i = 0; i < 5; i++)
+    for(int i = 0; i < 20; i++)
     {
         vetor3[i] = vetor1[i] - vetor2[i];
         vetor4[i] = vetor1[i] + vetor2[i];
